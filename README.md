@@ -95,3 +95,8 @@ Adding a specific profile to the url will display the credentials of that profil
 3. Configre AWS configuration for the postman collection
    See [screenshot](postman/authorization.png)
 4. Now your api calls will use your credentials, you can check the current values of variables in the collection settings, which should now be set.
+
+
+## Similar solutions
+- https://github.com/nuttmeister/pm-creds
+- 

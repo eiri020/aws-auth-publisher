@@ -5,7 +5,7 @@ services:
     image: aws-auth-publisher
     volumes:
       - ~/.aws/credentials:/aws-auth-publisher/.aws/credentials:ro
-    # restart: unless-stopped
+    restart: no
 
     ports:
       - "127.0.0.1:8080:8080"
