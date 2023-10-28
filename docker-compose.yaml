@@ -1,0 +1,13 @@
+version: '3'
+services:
+  aws-auth-publisher:
+    container_name: aws-auth-publisher
+    image: aws-auth-publisher
+    volumes:
+      - ~/.aws/credentials:/aws-auth-publisher/.aws/credentials:ro
+    # restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8080:8080"
+
+    
