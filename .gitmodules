@@ -1,0 +1,6 @@
+[submodule "bash-ini-parser"]
+	path = bash-ini-parser
+	url = https://github.com/albfan/bash-ini-parser.git
+[submodule "bash-rest-server"]
+	path = bash-rest-server
+	url = https://github.com/yurikoex/bash-rest-server.git

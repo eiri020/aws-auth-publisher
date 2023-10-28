@@ -1,0 +1,7 @@
+{
+	"aws_profile": "profile",
+	"aws_access_key_id": "bar",
+	"aws_secret_access_key": "foo",
+	"aws_session_token": "yep",
+	"aws_expiration": "2023-07-27T15:26:33.000Z"
+}

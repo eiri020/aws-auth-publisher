@@ -1,0 +1,2 @@
+svc_port=8080
+aws_credentials=/Users/erwinvanderhorst/.aws/credentials
