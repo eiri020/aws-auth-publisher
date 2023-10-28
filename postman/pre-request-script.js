@@ -10,7 +10,9 @@ pm.sendRequest({
           pm.collectionVariables.set("aws_expiration", body.aws_expiration)
           pm.collectionVariables.set("aws_profile", body.aws_profile)
       } else {
-          throw new Error(response.text() || "Error fetching aws credentials")
+          // Silently
+          // throw new Error(response.text() || "Error fetching aws credentials")
+          pm.collectionVariables.set("aws_profile", 'NOT_SET')
       }
   }
 )
